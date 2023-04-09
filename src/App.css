@@ -1,0 +1,73 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.follow-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.follow-card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.follow-card-avatar-name {
+  color: white;
+  font-size: 14px;
+}
+
+.follow-card-avatar-user {
+  color: rgba(255, 255, 255, 0.548);
+  font-size: 12px;
+}
+
+.follow-card-avatar-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.follow-card-avatar-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 1000px;
+  object-fit: cover;
+}
+
+.follow-card-button {
+  padding: 7px 17px 7px 17px;
+  border: transparent;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.follow-card-button:hover {
+  background-color: rgba(234, 237, 239, 0.805);
+  transition: 1s ease background-color;
+}
+
+.follow-card-button-following {
+  padding: 7px 17px 7px 17px;
+  border: solid 1px white;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+}
+
+.follow-card-button-following:hover {
+  border-color: rgba(255, 0, 0, 0.582);
+  color: rgba(255, 0, 0, 0.582);
+  transition: 1s ease;
+
+}
